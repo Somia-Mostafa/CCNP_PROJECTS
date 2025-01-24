@@ -1,0 +1,47 @@
+Jan 15 20:37:26.540 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 15 20:37:26.540 HYPERVISOR: Started on IP = localhost, TCP port = 52442.
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: hypervisor working_dir E:\CCNP_LABs\OSPF1\project-files\dynamips 
+Jan 15 20:37:27.040 GENERAL: working_dir=E:\CCNP_LABs\OSPF1\project-files\dynamips
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: hypervisor working_dir E:\CCNP_LABs\OSPF1\project-files\dynamips\6e6550d6-206e-4835-a388-af4a575b744f 
+Jan 15 20:37:27.040 GENERAL: working_dir=E:\CCNP_LABs\OSPF1\project-files\dynamips\6e6550d6-206e-4835-a388-af4a575b744f
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm create R7 7 c3745 
+Jan 15 20:37:27.040 VM: VM R7 created.
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5007 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: c3745 get_mac_addr R7 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_disk0 R7 0 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_exec_area R7 64 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_idle_pc R7 0x6024b540 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/NTI/GNS3/images/IOS/c3745-advipservicesk9-mz.124-15.T6.image 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: c3745 set_mac_addr R7 c407.0bd4.0000 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_nvram R7 256 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm set_ram R7 256 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 NM-4T 
+Jan 15 20:37:27.040 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 20:37:27.055 HYPERVISOR: exec_cmd: vm slot_add_binding R7 2 0 NM-1FE-TX 
+Jan 15 20:37:29.820 HYPERVISOR: exec_cmd: nio create_udp udp-b7d82351-506e-4ac5-998e-d104af38d441 10032 127.0.0.1 10033 
+Jan 15 20:37:30.117 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-b7d82351-506e-4ac5-998e-d104af38d441 
+Jan 15 20:37:30.117 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 20:40:18.536 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Jan 15 20:40:18.536 HYPERVISOR: exec_cmd: vm set_ghost_file R7 E:\CCNP_LABs\OSPF1\project-files\dynamips\c3745-advipservicesk9-mz.124-15.T6.image-256.ghost 
+Jan 15 20:40:18.536 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 20:40:18.567 HYPERVISOR: exec_cmd: vm set_config R7 configs\i7_startup-config.cfg 
+Jan 15 20:40:18.567 HYPERVISOR: exec_cmd: vm start R7 
+Jan 15 20:40:49.148 HYPERVISOR: exec_cmd: vm extract_config R7 
+Jan 15 20:40:49.164 HYPERVISOR: exec_cmd: vm extract_config R7 
+Jan 15 20:42:03.694 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Jan 15 20:42:03.694 HYPERVISOR: exec_cmd: vm set_ghost_file R7 E:\CCNP_LABs\OSPF1\project-files\dynamips\c3745-advipservicesk9-mz.124-15.T6.image-256.ghost 
+Jan 15 20:42:03.694 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 22:05:35.534 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 22:05:35.534 HYPERVISOR: exec_cmd: vm stop R7 
+Jan 15 22:05:35.647 VM: VM R7 shutdown.
+Jan 15 22:05:35.648 HYPERVISOR: exec_cmd: vm extract_config R7 
+Jan 15 22:05:35.821 HYPERVISOR: exec_cmd: vm get_status R7 
+Jan 15 22:05:35.823 HYPERVISOR: exec_cmd: vm extract_config R7 
+Jan 15 22:05:35.826 HYPERVISOR: exec_cmd: vm delete R7 
+Jan 15 22:05:35.826 VM: VM R7 destroyed.
+Jan 15 22:05:35.829 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 15 22:05:36.150 HYPERVISOR: Stopped.
+Jan 15 22:05:36.150 GENERAL: reset done.
